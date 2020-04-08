@@ -64,7 +64,7 @@ import './style.css'
               const abbr = d.properties.abbr || ''
               const centroid = path.centroid(d)
               if (abbr === 'FL') {
-                return centroid[0] + 8
+                return centroid[0] + 16
               }
 
               if (abbr === 'MI') {
@@ -74,6 +74,15 @@ import './style.css'
               if (abbr === 'LA') {
                 return centroid[0] - 8
               }
+
+              if (abbr === 'HI') {
+                return centroid[0] + 18
+              }
+
+              if (abbr === 'CA') {
+                return centroid[0] - 20
+              }
+
               return centroid[0] || 0
             })
             .attr('y', d => {
@@ -93,6 +102,10 @@ import './style.css'
               }
 
               if (abbr === 'ID') {
+                return centroid[1] + 18
+              }
+
+              if (abbr === 'HI') {
                 return centroid[1] + 18
               }
 
