@@ -98,6 +98,9 @@ import './style.css'
 
               return centroid[1] || 0
             })
+            .style('fill', d => {
+              return d.properties.storeCount > 2 ? '#FFF' : '#000'
+            })
             .text(d => d.properties.abbr || '')
 
           return states

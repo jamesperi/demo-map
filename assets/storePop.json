@@ -7,7 +7,7 @@
   { "state": "Colorado", "storeCount": 1, "fips": ["08", "CO"] },
   { "state": "Connecticut", "storeCount": 1, "fips": ["09", "CT"] },
   { "state": "Delaware", "storeCount": 0, "fips": ["10", "DE"] },
-  { "state": "Florida", "storeCount": 0, "fips": ["12", "FL"] },
+  { "state": "Florida", "storeCount": 3, "fips": ["12", "FL"] },
   { "state": "Georgia", "storeCount": 0, "fips": ["13", "GA"] },
   { "state": "Hawaii", "storeCount": 0, "fips": ["15", "HI"] },
   { "state": "Iowa", "storeCount": 0, "fips": ["19", "IA"] },

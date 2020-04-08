@@ -34,5 +34,11 @@
     "place": "Washington DC",
     "lat": 38.8903694,
     "lon": -77.0319595
+  },
+  {
+    "years": 15,
+    "place": "Miami Fl",
+    "lat": 25.7617,
+    "lon": -80.191788
   }
 ]
