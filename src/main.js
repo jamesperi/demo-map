@@ -84,6 +84,18 @@ import './style.css'
                 return centroid[1] + 20
               }
 
+              if (abbr === 'NH') {
+                return centroid[1] + 10
+              }
+
+              if (abbr === 'CT') {
+                return centroid[1] + 2
+              }
+
+              if (abbr === 'ID') {
+                return centroid[1] + 18
+              }
+
               return centroid[1] || 0
             })
             .text(d => d.properties.abbr || '')
